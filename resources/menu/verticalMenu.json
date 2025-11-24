@@ -1,0 +1,1224 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "dashboard"
+    },
+    {
+      "name": "General Settings",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/login-permission-settings",
+          "name": "Login Permission Settings",
+          "slug": "login-permission-settings"
+        },
+        {
+          "url": "/academic-year",
+          "name": "Academic Year Settings",
+          "slug": "academic-year"
+        },
+        {
+          "url": "layouts/working-days-settings",
+          "name": "Working days settings",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/working-days-list",
+              "name": "working days list",
+              "slug": "working-days-list"
+            },
+            {
+              "url": "add-working-days",
+              "name": "Add Working Days",
+              "slug": "add-working-days"
+            }
+          ]
+        },
+        {
+          "url": "/important-days",
+          "name": "Important days Management",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/important-days-list",
+              "name": "Important days list",
+              "slug": "important-days-management"
+            },
+            {
+              "url": "add-important-days",
+              "name": "Add Important Days",
+              "slug": "add-important-days"
+            }
+          ]
+        },
+        {
+          "url": "/common-holiday-settings",
+          "name": "Common Holiday Settings",
+          "slug": "common-holiday"
+        },
+        {
+          "url": "/local-holiday-settings",
+          "name": "Local Holiday Settings",
+          "slug": "local-holiday"
+        },
+        {
+          "url": "/summary-report",
+          "name": "Summary Report",
+          "slug": "summary-report"
+        },
+        {
+          "url": "/division-management",
+          "name": "Division Management",
+          "slug": "division-management"
+        },
+        {
+          "url": "/add-last-admission",
+          "name": "Add Last Admission Number",
+          "slug": "add-last-admission"
+        },
+        {
+          "url": "/class-promotion-criteria",
+          "name": "Class Promotion Criteria",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/criteria-list",
+              "name": "Criteria list",
+              "slug": "criteria-list"
+            },
+            {
+              "url": "add-criteria",
+              "name": "Add Criteria",
+              "slug": "add-criteria"
+            }
+          ]
+        },
+        {
+          "url": "/exam-settings",
+          "name": "Exam Settings",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/settings-list",
+              "name": "Settings list",
+              "slug": "settings-list"
+            },
+            {
+              "url": "add-settings",
+              "name": "Add Settings",
+              "slug": "add-settings"
+            }
+          ]
+        },
+        {
+          "url": "/date-settings",
+          "name": "Date Settings",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/date-settings-list",
+              "name": "Date Settings List",
+              "slug": "date-settings-list"
+            },
+            {
+              "url": "add-date-settings",
+              "name": "Add Date Settings",
+              "slug": "add-date-settings"
+            }
+          ]
+        },
+        {
+          "url": "/internal-criteria",
+          "name": "Internal Marks Criteria",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/internal-criteria-list",
+              "name": "Criteria List",
+              "slug": "internal-criteria-list"
+            },
+            {
+              "url": "add-internal-criteria",
+              "name": "Add Criteria",
+              "slug": "add-internal-criteria"
+            }
+          ]
+        },
+        {
+          "url": "/news-management",
+          "name": "News Management",
+          "slug": "news-management",
+          "submenu": [
+            {
+              "url": "/news-list",
+              "name": "News List",
+              "slug": "news-list"
+            },
+            {
+              "url": "add-news",
+              "name": "Add News",
+              "slug": "add-news"
+            }
+          ]
+        },
+        {
+          "url": "/events-management",
+          "name": "Events Management",
+          "slug": "events-management",
+          "submenu": [
+            {
+              "url": "/events-list",
+              "name": "Events List",
+              "slug": "events-list"
+            },
+            {
+              "url": "add-events",
+              "name": "Add Events",
+              "slug": "add-events"
+            }
+          ]
+        },
+        {
+          "url": "/forane-promoter-management",
+          "name": "Forane Promoter Management",
+          "slug": "forane-promoter-management",
+          "submenu": [
+            {
+              "url": "/forane-promoter-list",
+              "name": "Forane List",
+              "slug": "forane-promoter-list"
+            },
+            {
+              "url": "add-forane-promoter",
+              "name": "Add Forane",
+              "slug": "add-forane-promoter"
+            },
+            {
+              "url": "forane-promoter-report",
+              "name": "Forane Promoters Report",
+              "slug": "forane-promoter-report"
+            }
+          ]
+        },
+        {
+          "url": "/forane-management",
+          "name": "Forane Management",
+          "slug": "forane-management"
+        },
+        {
+          "url": "/unit-management",
+          "name": "Unit Management",
+          "slug": "unit-management",
+          "submenu": [
+            {
+              "url": "/unit-list",
+              "name": "Unit List",
+              "slug": "unit-list"
+            },
+            {
+              "url": "add-unit",
+              "name": "Register Unit",
+              "slug": "add-unit"
+            },
+            {
+              "url": "unit-address-report",
+              "name": "Unit Address Report",
+              "slug": "unit-address-report"
+            },
+            {
+              "url": "unit-report",
+              "name": "Unit Report",
+              "slug": "unit-report"
+            },
+            {
+              "url": "unit-summary-report",
+              "name": "Unit Summary Report",
+              "slug": "unit-summary-report"
+            }
+          ]
+        },
+        {
+          "url": "/user-management",
+          "name": "User Management",
+          "slug": "user-management",
+          "submenu": [
+            {
+              "url": "/user-list",
+              "name": "User List",
+              "slug": "user-list"
+            },
+            {
+              "url": "add-user",
+              "name": "Register User",
+              "slug": "add-user"
+            }
+          ]
+        },
+        {
+          "url": "/other-settigs",
+          "name": "Other Settigs",
+          "slug": "other-settigs",
+          "submenu": [
+            {
+              "url": "/attendance-edit-reason",
+              "name": "Attendance Edit Reason",
+              "slug": "attendance-edit-reason"
+            },
+            {
+              "url": "family-unit",
+              "name": "Family Unit",
+              "slug": "family-unit"
+            },
+            {
+              "url": "designation-management",
+              "name": "Designation Management",
+              "slug": "designation-management"
+            },
+            {
+              "url": "job-categories",
+              "name": "Job Categories",
+              "slug": "job-categories"
+            },
+            {
+              "url": "job-titles",
+              "name": "Job Titles",
+              "slug": "job-titles"
+            },
+            {
+              "url": "qualification-management",
+              "name": "Qualification Management",
+              "slug": "qualification-management"
+            },
+            {
+              "url": "name-titles",
+              "name": "Name Titles",
+              "slug": "name-titles"
+            },
+            {
+              "url": "pious-associations",
+              "name": "Pious Associations",
+              "slug": "pious-associations"
+            }
+          ]
+        },
+        {
+          "url": "/authority-management",
+          "name": "Authority Management",
+          "slug": "authority-management",
+          "submenu": [
+            {
+              "url": "add-authority",
+              "name": "Add Authority",
+              "slug": "add-authority"
+            },
+            {
+              "url": "/authority-list",
+              "name": "Authority List",
+              "slug": "authority-list"
+            },
+            {
+              "url": "authority-report",
+              "name": "Authority Report",
+              "slug": "authority-report"
+            }
+          ]
+        },
+        {
+          "url": "/add-urgent-notifications",
+          "name": "Add Urgent Notifications",
+          "slug": "add-urgent-notifications"
+        }
+      ]
+    },
+    {
+      "name": "Students Excellence",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/excellence-criteria",
+          "name": "Excellence Criteria",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/excellence-criteria-list",
+              "name": "Criteria List",
+              "slug": "excellence-criteria-list"
+            },
+            {
+              "url": "add-excellence-criteria",
+              "name": "Add Criteria",
+              "slug": "add-excellence-criteria"
+            }
+          ]
+        },
+        {
+          "url": "add-excellence-students",
+          "name": "Excellence Students Add",
+          "slug": "add-excellence-students"
+        },
+        {
+          "url": "excellence-students-list",
+          "name": "Excellence Students List",
+          "slug": "excellence-students-list"
+        },
+        {
+          "url": "/login-permission-settings",
+          "name": "Login Permission Settings",
+          "slug": "login-permission-settings"
+        }
+      ]
+    },
+    {
+      "name": "Students Management",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "student-list",
+          "name": "Student list",
+          "slug": "student-list"
+        },
+        {
+          "url": "student-register",
+          "name": "Student Register",
+          "slug": "student-register"
+        },
+        {
+          "url": "student-strength",
+          "name": "Student Strength",
+          "slug": "student-strength"
+        },
+        {
+          "url": "add-attendance",
+          "name": "Add Attendance",
+          "slug": "add-attendance"
+        },
+        {
+          "url": "delete-attendance",
+          "name": "Delete Attendance",
+          "slug": "delete-attendance"
+        },
+        {
+          "url": "extra-attendance",
+          "name": "Extra Attendance Management",
+          "slug": "extra-attendance"
+        },
+        {
+          "url": "transfer-certificate",
+          "name": "Transfer Certificate",
+          "slug": "transfer-certificate"
+        },
+        {
+          "url": "emigrants",
+          "name": "Emigrants",
+          "slug": "emigrants"
+        },
+        {
+          "url": "immigrants",
+          "name": "Immigrants",
+          "slug": "immigrants"
+        },
+        {
+          "url": "cancel-tc",
+          "name": "Cancel TC",
+          "slug": "cancel-tc"
+        },
+        {
+          "name": "Report Management",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/student-search-report",
+              "name": "Student search Report",
+              "slug": "student-search-report"
+            },
+            {
+              "url": "/student-list-report",
+              "name": "Student List Report",
+              "slug": "student-list-report"
+            },
+            {
+              "url": "/student-list-without-header",
+              "name": "Student List Without Header",
+              "slug": "student-list-without-header"
+            },
+            {
+              "url": "birthday-list",
+              "name": "Student Birthday List",
+              "slug": "birthday-list"
+            },
+            {
+              "url": "/student-address-report",
+              "name": "Student Address Report",
+              "slug": "student-address-report"
+            },
+            {
+              "url": "/student-summary-report",
+              "name": "Student Summary Report",
+              "slug": "student-summary-report"
+            },
+            {
+              "url": "full-attendance",
+              "name": "Full Attendance",
+              "slug": "full-attendance"
+            },
+            {
+              "url": "not-attending",
+              "name": "Not Attending",
+              "slug": "not-attending"
+            },
+            {
+              "url": "attendance-list",
+              "name": "Attendance List",
+              "slug": "attendance-list"
+            },
+            {
+              "url": "extra-attendance-list",
+              "name": "Extra Attendance List",
+              "slug": "extra-attendance-list"
+            },
+            {
+              "url": "extra-attendance",
+              "name": "Extra Attendance Management",
+              "slug": "extra-attendance"
+            },
+            {
+              "url": "annual-exam-eligibility-list",
+              "name": "Annual exam eligibility List",
+              "slug": "annual-exam-eligibility-list"
+            },
+            {
+              "url": "annual-exam-ineligibility-list",
+              "name": "Annual exam ineligibility List",
+              "slug": "annual-exam-ineligibility-list"
+            },
+            {
+              "url": "transfer-student-list",
+              "name": "Transfer Student List",
+              "slug": "transfer-student-list"
+            },
+            {
+              "url": "/evaluation-sheet",
+              "name": "Evaluation sheet ",
+              "slug": "evaluation-sheet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Staff Management",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "staff-list",
+          "name": "Staff list",
+          "slug": "staff-list"
+        },
+        {
+          "url": "staff-register",
+          "name": "Staff Register",
+          "slug": "staff-register"
+        },
+        {
+          "url": "attendance-management",
+          "name": "Attendance management",
+          "slug": "attendance-management"
+        },
+        {
+          "url": "staff-transfer",
+          "name": "Staff Transfer",
+          "slug": "staff-transfer"
+        },
+        {
+          "url": "staff-emigrants",
+          "name": "Emigrants",
+          "slug": "staff-emigrants"
+        },
+        {
+          "url": "staff-immigrants",
+          "name": "Immigrants",
+          "slug": "staff-immigrants"
+        },
+        {
+          "url": "cancel-tc-list",
+          "name": "Cancel TC",
+          "slug": "cancel-tc-list"
+        },
+        {
+          "name": "Report Management",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/staff-list-report",
+              "name": "Staff List Report",
+              "slug": "staff-list-report"
+            },
+            {
+              "url": "/staff-list-without-header",
+              "name": "Staff List Without Header",
+              "slug": "staff-list-without-header"
+            },
+            {
+              "url": "staff-birthday-report",
+              "name": "Staff Birthday Report",
+              "slug": "staff-birthday-report"
+            },
+            {
+              "url": "/staff-address-report",
+              "name": "Staff Address Report",
+              "slug": "staff-address-report"
+            },
+            {
+              "url": "/staff-summary-report",
+              "name": "Staff Summary Report",
+              "slug": "staff-summary-report"
+            },
+            {
+              "url": "staff-count",
+              "name": "Staff Count",
+              "slug": "staff-count"
+            },
+            {
+              "url": "/staff-transfer-list",
+              "name": "Staff Transfer List",
+              "slug": "staff-transfer-list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contact Class Management",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "contact-class-settings",
+          "name": "Contact Class Settings",
+          "slug": "contact-class-settings"
+        },
+        {
+          "url": "add-contact-attendance",
+          "name": "Add Contact Attendance",
+          "slug": "add-contact-attendance"
+        },
+        {
+          "url": "contact-class-attendance-list",
+          "name": "Contact Class Attendance List",
+          "slug": "contact-class-attendance-list"
+        },
+        {
+          "url": "non-public-mark-entry",
+          "name": "Non Public Mark Entry",
+          "slug": "non-public-mark-entry"
+        },
+        {
+          "url": "non-public-mark-list",
+          "name": "Non Public Mark List",
+          "slug": "non-public-mark-list"
+        },
+        {
+          "url": "register-no-generation",
+          "name": "Register No Generation",
+          "slug": "register-no-generation"
+        },
+        {
+          "url": "register-no-report",
+          "name": "Register No Report",
+          "slug": "register-no-report"
+        },
+        {
+          "url": "public-exam-mark-entry",
+          "name": "Public Exam Mark Entry",
+          "slug": "public-exam-mark-entry"
+        },
+        {
+          "url": "public-exam-mark-list",
+          "name": "Public Exam Mark List",
+          "slug": "public-exam-mark-list"
+        }
+      ]
+    },
+    {
+      "name": "Activity Management",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "activity-list",
+          "name": "Activity list",
+          "slug": "activity-list"
+        },
+        {
+          "url": "activity-creation",
+          "name": "Activity creation",
+          "slug": "activity-creation"
+        },
+        {
+          "url": "activity-report",
+          "name": "Activity Report",
+          "slug": "activity-report"
+        },
+        {
+          "url": "activity-resident-report",
+          "name": "Activity Resident Report",
+          "slug": "activity-resident-report"
+        },
+        {
+          "url": "activity-forane-report",
+          "name": "Activity Forane Report",
+          "slug": "activity-forane-report"
+        },
+        {
+          "url": "activity-certificate",
+          "name": "Activity certificate",
+          "slug": "activity-certificate"
+        },
+        {
+          "url": "activity-attendance-certificate",
+          "name": "Activity Attendance certificate",
+          "slug": "activity-attendance-certificate"
+        }
+      ]
+    },
+    {
+      "name": "Unit Visit Management",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "select-unit-visit-inspector",
+          "name": "Select Unit Visit Inspector",
+          "slug": "select-unit-visit-inspector"
+        },
+        {
+          "url": "reset-form-permission",
+          "name": "Reset Form permission",
+          "slug": "reset-form-permission"
+        },
+        {
+          "url": "/form-creation",
+          "name": "Form Creation",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/form-a",
+              "name": "Form A",
+              "slug": "form-a"
+            },
+            {
+              "url": "/form-b",
+              "name": "Form B",
+              "slug": "form-b"
+            },
+            {
+              "url": "/form-c",
+              "name": "Form C",
+              "slug": "form-c"
+            }
+          ]
+        },
+        {
+          "url": "/unit-activity-form",
+          "name": "Unit Activity Dairy Form",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/dairy-form-a",
+              "name": "Form A",
+              "slug": "dairy-form-a"
+            },
+            {
+              "url": "/dairy-form-b",
+              "name": "Form B",
+              "slug": "dairy-form-b"
+            },
+            {
+              "url": "/dairy-form-c",
+              "name": "Form C",
+              "slug": "dairy-form-c"
+            }
+          ]
+        },
+        {
+          "url": "unit-visit-report",
+          "name": "Unit Visit Report",
+          "slug": "unit-visit-report"
+        }
+      ]
+    },
+    {
+      "name": "Exam Management",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/Question-Paper",
+          "name": "Excellence Criteria",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/cover-page-settings",
+              "name": "Criteria List",
+              "slug": "excellence-criteria-list"
+            },
+            {
+              "url": "question-paper-criteria",
+              "name": "Question Paper Count",
+              "slug": "question-paper-criteria"
+            },
+            {
+              "url": "question-paper-indent",
+              "name": "Question Paper Indent",
+              "slug": "question-paper-indent"
+            },
+            {
+              "url": "cover-page",
+              "name": "Cover Page",
+              "slug": "cover-page"
+            }
+          ]
+        },
+        {
+          "url": "/mark-management",
+          "name": "Mark Management",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/mark-entry",
+              "name": "Mark Entry",
+              "slug": "mark-entry"
+            },
+            {
+              "url": "mark-list",
+              "name": "Mark List",
+              "slug": "mark-list"
+            },
+            {
+              "url": "annual-mark-list",
+              "name": "Annual Mark List",
+              "slug": "annual-mark-list"
+            }
+          ]
+        },
+        {
+          "url": "/re-exams",
+          "name": "Re-Exams",
+          "slug": "layouts-container",
+          "submenu": [
+            {
+              "url": "/reason",
+              "name": "Reason",
+              "slug": "reason"
+            },
+            {
+              "url": "registration",
+              "name": "Registration",
+              "slug": "registration"
+            },
+            {
+              "url": "mark-entry",
+              "name": "Mark Entry",
+              "slug": "mark-entry"
+            },
+            {
+              "url": "/re-exams",
+              "name": "Re-Exams Reports",
+              "slug": "layouts-container",
+              "submenu": [
+                {
+                  "url": "/reason",
+                  "name": "Reason",
+                  "slug": "reason"
+                },
+                {
+                  "url": "registration",
+                  "name": "Registration",
+                  "slug": "registration"
+                },
+                {
+                  "url": "mark-entry",
+                  "name": "Mark Entry",
+                  "slug": "mark-entry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "activity-creation",
+          "name": "Activity creation",
+          "slug": "activity-creation"
+        },
+        {
+          "url": "activitystrength",
+          "name": "Student Strength",
+          "slug": "student_strength"
+        },
+        {
+          "url": "add-attendance",
+          "name": "Add Attendance",
+          "slug": "add-attendance"
+        },
+        {
+          "url": "delete-attendance",
+          "name": "Delete Attendance",
+          "slug": "delete-attendance"
+        },
+        {
+          "url": "extra-attendance",
+          "name": "Extra Attendance Management",
+          "slug": "extra-attendance"
+        },
+        {
+          "url": "emigrants",
+          "name": "Emigrants",
+          "slug": "emigrants"
+        },
+        {
+          "url": "immigrants",
+          "name": "Immigrants",
+          "slug": "immigrants"
+        },
+        {
+          "name": "Report Management",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/student-search-report",
+              "name": "Student search Report",
+              "slug": "student-search-report"
+            },
+            {
+              "url": "/student-list-report",
+              "name": "Student List Report",
+              "slug": "student-list-report"
+            },
+            {
+              "url": "/student-list-without-header",
+              "name": "Student List Without Header",
+              "slug": "student-list-without-header"
+            },
+            {
+              "url": "attendance-list",
+              "name": "Attendance List",
+              "slug": "attendance-list"
+            },
+            {
+              "url": "extra-attendance-list",
+              "name": "Extra Attendance List",
+              "slug": "extra-attendance-list"
+            },
+            {
+              "url": "extra-attendance",
+              "name": "Extra Attendance Management",
+              "slug": "extra-attendance"
+            },
+            {
+              "url": "/evaluation-sheet",
+              "name": "Evaluation sheet ",
+              "slug": "evaluation-sheet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valuation Management",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "name": "Forane Grouping",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/grouped-forane",
+              "name": "Group Forane",
+              "slug": "grouped-forane"
+            },
+            {
+              "url": "/grouped-forane-list",
+              "name": "Grouped Forane List",
+              "slug": "grouped-forane-list"
+            }
+          ]
+        },
+        {
+          "name": "Valuation Programme",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/add-valuation-program",
+              "name": "Add Valuation Program",
+              "slug": "add-valuation-program"
+            },
+            {
+              "url": "/valuation-program-list",
+              "name": "Valuation Program List",
+              "slug": "valuation-program-list"
+            }
+          ]
+        },
+        {
+          "name": "Examiner Selection",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/add-examiner",
+              "name": "Add Examiner",
+              "slug": "add-examiner"
+            },
+            {
+              "url": "/confirmed-examiner-list",
+              "name": "Confirmed Examiner List",
+              "slug": "confirmed-examiner-list"
+            }
+          ]
+        },
+        {
+          "name": "Chief Examiner Selection",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/add-chief-examiner",
+              "name": "Add Chief Examiner",
+              "slug": "add-chief-examiner"
+            },
+            {
+              "url": "/confirmed-chief-examiner-list",
+              "name": "Confirmed Chief Examiner List",
+              "slug": "confirmed-chief-examiner-list"
+            }
+          ]
+        },
+        {
+          "url": "select-unit-visit-inspector",
+          "name": "Select Unit Visit Inspector",
+          "slug": "select-unit-visit-inspector"
+        },
+        {
+          "url": "activity-creation",
+          "name": "Activity creation",
+          "slug": "activity-creation"
+        },
+        {
+          "url": "activitystrength",
+          "name": "Student Strength",
+          "slug": "student_strength"
+        },
+        {
+          "url": "add-attendance",
+          "name": "Add Attendance",
+          "slug": "add-attendance"
+        },
+        {
+          "url": "delete-attendance",
+          "name": "Delete Attendance",
+          "slug": "delete-attendance"
+        },
+        {
+          "url": "extra-attendance",
+          "name": "Extra Attendance Management",
+          "slug": "extra-attendance"
+        },
+        {
+          "url": "emigrants",
+          "name": "Emigrants",
+          "slug": "emigrants"
+        },
+        {
+          "url": "immigrants",
+          "name": "Immigrants",
+          "slug": "immigrants"
+        },
+        {
+          "name": "Report Management",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/student-search-report",
+              "name": "Student search Report",
+              "slug": "student-search-report"
+            },
+            {
+              "url": "/student-list-report",
+              "name": "Student List Report",
+              "slug": "student-list-report"
+            },
+            {
+              "url": "/student-list-without-header",
+              "name": "Student List Without Header",
+              "slug": "student-list-without-header"
+            },
+            {
+              "url": "attendance-list",
+              "name": "Attendance List",
+              "slug": "attendance-list"
+            },
+            {
+              "url": "extra-attendance-list",
+              "name": "Extra Attendance List",
+              "slug": "extra-attendance-list"
+            },
+            {
+              "url": "extra-attendance",
+              "name": "Extra Attendance Management",
+              "slug": "extra-attendance"
+            },
+            {
+              "url": "/evaluation-sheet",
+              "name": "Evaluation sheet ",
+              "slug": "evaluation-sheet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Public Exam",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/public-exam-settings",
+          "name": "Public Exam Settings",
+          "slug": "public-exam-settings"
+        },
+        {
+          "url": "/previous-year-mark-entry",
+          "name": "previous-year-mark-entry",
+          "slug": "previous-year-mark-entry"
+        },
+        {
+          "url": "/XII-previous-year-mark-entry",
+          "name": "XII previous-year-mark-entry",
+          "slug": "XII-previous-year-mark-entry"
+        },
+        {
+          "url": "activity-creation",
+          "name": "Activity creation",
+          "slug": "activity-creation"
+        },
+        {
+          "url": "activitystrength",
+          "name": "Student Strength",
+          "slug": "student_strength"
+        },
+        {
+          "url": "add-attendance",
+          "name": "Add Attendance",
+          "slug": "add-attendance"
+        },
+        {
+          "url": "delete-attendance",
+          "name": "Delete Attendance",
+          "slug": "delete-attendance"
+        },
+        {
+          "url": "extra-attendance",
+          "name": "Extra Attendance Management",
+          "slug": "extra-attendance"
+        },
+        {
+          "url": "emigrants",
+          "name": "Emigrants",
+          "slug": "emigrants"
+        },
+        {
+          "url": "immigrants",
+          "name": "Immigrants",
+          "slug": "immigrants"
+        },
+        {
+          "name": "Report Management",
+          "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "url": "/student-search-report",
+              "name": "Student search Report",
+              "slug": "student-search-report"
+            },
+            {
+              "url": "/student-list-report",
+              "name": "Student List Report",
+              "slug": "student-list-report"
+            },
+            {
+              "url": "/student-list-without-header",
+              "name": "Student List Without Header",
+              "slug": "student-list-without-header"
+            },
+            {
+              "url": "attendance-list",
+              "name": "Attendance List",
+              "slug": "attendance-list"
+            },
+            {
+              "url": "extra-attendance-list",
+              "name": "Extra Attendance List",
+              "slug": "extra-attendance-list"
+            },
+            {
+              "url": "extra-attendance",
+              "name": "Extra Attendance Management",
+              "slug": "extra-attendance"
+            },
+            {
+              "url": "/evaluation-sheet",
+              "name": "Evaluation sheet ",
+              "slug": "evaluation-sheet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account",
+          "slug": "pages-account-settings-account"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages/account-settings-connections",
+          "name": "Connections",
+          "slug": "pages-account-settings-connections"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Components"
+    },
+    {
+      "name": "Cards",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "cards-basic",
+      "url": "cards/basic"
+    }
+  ]
+}
